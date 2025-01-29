@@ -199,7 +199,7 @@ start/build.gradle
 include::finish/build.gradle[]
 ----
 
-Set the [hotspot=packaging file=1]`basic configuration` for the project. Apply [gradle-java-plugin file=1]`gradle-java-plugin` to all sub projects. This allows each child module to inherit the plug-ins, so that you can use the these to develop the modules.
+Set the [hotspot=packaging file=1]`common configuration` for the project. Apply [gradle-java-plugin file=1]`gradle-java-plugin` to all sub projects. This allows each child module to inherit the plug-ins, so that you can use the these to develop the modules.
 
 
 
